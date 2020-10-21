@@ -1,0 +1,92 @@
+.RadioGroup {
+    display: flex!important;
+    flex-direction: row!important; 
+    justify-content: center!important; 
+    flex-wrap: nowrap!important;
+    margin-top: 1rem!important;
+}
+
+.FirstRadioGroup {
+    display: flex!important;
+    flex-direction: row!important;
+    padding-bottom: 1rem!important;
+}
+
+.FormControlLabel {
+    background-color: rgb(238, 238, 238)!important;
+    text-align: center!important;
+    vertical-align: middle!important;
+    line-height: 1.2!important;
+    padding: 3px 0px!important;
+    border-left: 1px solid #ccc!important;
+    border-bottom: 1px solid #ccc!important;
+    border-right: 1px solid #ccc!important;
+    border-top: 1px solid #ccc!important;
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    color: gray!important;
+    width: auto!important;
+    cursor: pointer!important;
+    margin: 0!important;
+    padding-top: 8px!important;
+    font-size: 1rem!important;
+    max-width: 85%!important;
+    font-family: "Helvetica",Verdana,Arial,sans-serif!important;
+    font-weight: bold!important;
+    line-height: 1.5!important;
+    white-space: normal!important;
+    text-transform: capitalize!important;
+    vertical-align: middle!important;
+    min-width: 10%!important;
+}
+
+.required {
+    color: #790000;
+    margin-left: 4px;
+}
+
+@media only screen and  (max-width: 768px) {
+    .FormControlLabel {
+        display: block!important;
+        text-align: left!important;
+        line-height: 2!important;
+        background-position: .5rem center!important;
+        min-height: 2.4em!important;
+        min-width: 100%!important;
+        background-color: white!important;
+        border-left: 1px solid #ccc!important;
+        border-bottom: .5px solid #ccc!important;
+        border-right: 1px solid #ccc!important;
+        border-top: .5px solid #ccc!important;
+        margin-top: 0!important;
+        
+    }
+
+    .FormControlLabel:hover{
+        background-color: rgba(223, 239, 255, .4)!important
+    }
+
+    .RadioGroup {
+        flex-direction: column!important;
+    }
+
+    .Prev {
+        width: 100%!important;
+        margin-bottom: .5rem!important;
+    }
+
+    .Next {
+        width: 100%!important;
+    }
+    
+    .buttonWrapper {
+        flex-direction: column!important;
+    }
+}
+
+@media only screen and  (max-width: 761px) {
+    .FirstRadioGroup {
+        flex-direction: column!important;
+        transition: all 2s!important;
+    }
+}

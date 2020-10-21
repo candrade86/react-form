@@ -1,0 +1,28 @@
+
+  .card {
+    padding: 40px;
+  }
+
+@media only screen and  (max-width: 960px) {
+  .card {
+     padding: 20px!important;
+  }
+}
+
+img {
+  display: inline;
+  height: auto;
+  max-width: 100%;
+}
+
+
+  @media only screen and  (max-width: 768px) {
+     .contCollapse {
+       margin: 0!important;
+       padding: 0!important;
+     }
+
+     .insideContainer {
+       margin: 0!important;
+     }
+    }

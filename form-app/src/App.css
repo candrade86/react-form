@@ -1,0 +1,26 @@
+html {
+  min-height: 100vh;
+  background-repeat: repeat-y!important;
+  background-position: center top!important;
+  background-attachment: scroll!important;
+  background-size: cover!important;
+  background-image: url(https://15mgy97sdvj3qc5bw391y6h1-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/VindicoGRAY-Bkgd-narrow.png);
+}
+
+body {
+ margin: 0!important;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+.title {
+  color: #333;
+  font-family: "Helvetica",Verdana,Arial,sans-serif;
+  font-weight: 400;
+}
+.card {
+  background: white;
+}
+
